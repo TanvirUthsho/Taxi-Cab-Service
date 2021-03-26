@@ -1,0 +1,1065 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+:root {
+    --main-color: rgb(255, 198, 26);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* =============================================
+                  Header Start
+================================================*/
+
+header {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    padding: auto;
+    width: 100%;
+    /* height: 75rem; */
+    padding: 1rem 0 0;
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+/* ============ Nav Start =========== */
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: var(--main-color);
+    font-size: 1.6rem;
+    transition: .2s ease-in-out;
+    border-radius: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 3rem;
+    padding: .2rem 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    height: 3rem;
+    padding: .2rem 2rem;
+    transition: .4s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    transition: .2s ease-in-out;
+    border-radius: 3rem;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background: var(--main-color);
+    color: black;
+}
+
+.top-box-shadow {
+    box-shadow: 0px 2px 90px 85px #000;
+}
+
+.navbar-light .navbar-toggler {
+    color: #999;
+    border-color: #777;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* ================ Nav End ===================== */
+.real-taxi {
+    display: block;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.book-now {
+    display: block;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.book-now h4 {
+    color: var(--main-color);
+    font-size: 3rem;
+    font-weight: 900;
+    word-spacing: .6rem;
+    padding: 0;
+}
+
+.book-now h2 {
+    color: #fff;
+    font-size: 6.7rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+.book-now h6 {
+    font-size: 1rem;
+    letter-spacing: .9rem;
+    color: rgb(238, 234, 234);
+    font-weight: 900;
+}
+
+.attraction {
+    margin-top: -13rem;
+    background: var(--main-color);
+    height: 55em;
+
+}
+
+.about {
+    padding: 15rem 15rem 0;
+}
+
+.about h4 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.about h3 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 2rem 0;
+}
+
+.btn-readmore {
+    background: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 1.1rem 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.booking {
+    padding: 15rem 15rem 10rem;
+}
+
+.booking-form {
+    background: #fff;
+    height: 25rem;
+    border-radius: 1.5rem;
+
+}
+
+.book-title {
+    background: black;
+    color: #fff;
+    text-transform: uppercase;
+    height: 7rem;
+    border-radius: 1rem;
+}
+
+.book-title span {
+    color: var(--main-color);
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.book-title h3 {
+    padding: 2.1rem 3rem;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+
+.form-control {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(218, 214, 214);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.l {
+    padding: 0 2rem 0 3rem;
+}
+
+.r {
+    padding: 0 3rem 0 0;
+}
+
+.form-select {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(218, 214, 214);
+    padding: 2rem 1.5rem .7rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.form-select:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(255 198 26 / 25%);
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--main-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(255 198 26 / 25%);
+}
+
+.btn-sumbit {
+    background: black;
+    color: #fff;
+    width: 35rem;
+    height: 4rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.s {
+    padding-top: 3.5rem;
+}
+
+.btn-sumbit h5 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* =============================================
+                  Header End
+================================================*/
+
+
+/* ========================= Hero Section Start ================================ */
+.hero-section {
+    margin-top: 7rem;
+}
+
+.tariffs-tittle h4 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.tariffs-tittle h2 {
+    font-weight: 900;
+    font-size: 4.5rem;
+    color: black;
+    text-align: center;
+}
+
+.tariffs-img-container {
+    margin-top: 5rem;
+
+}
+
+.tariffs-img {
+    /* width: 80%; */
+    position: relative;
+    margin-left: 2rem;
+    z-index: 1;
+}
+
+.tariffs-price {
+    background: rgb(238, 234, 234);
+    border-radius: 1rem;
+    margin-top: -8rem;
+    height: 37rem;
+    margin-left: 4rem;
+    width: 37rem;
+    padding: 9rem 3rem 0;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    color: var(--main-color);
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 8rem;
+
+}
+
+.tariffs-price:hover {
+    background: var(--main-color);
+    color: #000;
+}
+
+.tariffs-price h3 {
+    font-size: 3.3rem;
+    font-weight: 900;
+    color: black;
+    text-align: center
+}
+
+.tariffs-price h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+
+.tariffs-price h2:hover {
+    color: #000;
+}
+
+.tariffs-price h5 {
+    background: var(--main-color);
+    color: black;
+    width: 11rem;
+    height: 3.7rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.tariffs-price h5 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    border: .09rem solid #000;
+    transition: 0.3s ease-in-out;
+}
+
+.tariffs-price h5:hover {
+    background: black;
+    color: var(--main-color);
+}
+
+/* ======================== Hero Section End ================================== */
+
+.features {
+    background: url(../img/attraction.png);
+    background-size: cover;
+    margin-top: 7rem;
+}
+
+.features h3 {
+    margin-top: 4rem;
+    color: var(--main-color);
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.features h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* =========== Promo Section Start ======== */
+.promo-section {
+    padding: 7.5rem 0;
+}
+
+.promo-section h2 {
+    color: #484848;
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.title-border {
+    background: var(--main-color);
+    width: 5rem;
+    height: .3rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+.promo-section p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #7c7c7c;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.promo-content {
+    padding-top: 5.0rem;
+}
+
+.promo-content img {
+    display: block;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 95%;
+    width: 85%;
+}
+
+.promo-hover {
+    margin-bottom: 5.0rem;
+}
+
+.promo-left {
+    text-align: right;
+}
+
+.promo-left h3 {
+    color: #dddada;
+    font-size: 2.6rem;
+    transition: 0.4s ease-in-out;
+    text-align: left;
+    cursor: pointer;
+}
+
+.promo-left p {
+    text-align: right;
+    color: #bdbaba;
+    font-size: 1.6rem;
+    text-align: left;
+    width: 36rem;
+    cursor: pointer;
+}
+
+.promo-left .fas {
+    display: block;
+    text-align: center;
+    border: .2rem solid var(--main-color);
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    line-height: 9.0rem;
+    border-radius: 50%;
+    font-size: 3.6rem;
+    color: var(--main-color);
+    margin-left: 5rem;
+    margin-top: 3rem;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+
+}
+
+.promo-hover:hover h3 {
+    color: var(--main-color);
+}
+
+.promo-hover:hover .fas {
+    background: var(--main-color);
+    color: black;
+}
+
+.promo-right {
+    text-align: left;
+    padding: 0rem 4.5rem;
+}
+
+.promo-right h3 {
+    color: #dddada;
+    font-size: 2.6rem;
+    transition: 0.4s ease-in-out;
+    margin-left: 2.7rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.promo-right p {
+    text-align: left;
+    color: #bdbaba;
+    font-size: 16px;
+    margin-left: 2.7rem;
+    width: 36rem;
+    cursor: pointer;
+}
+
+.promo-right .fas {
+    display: block;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    line-height: 9.0rem;
+    border-radius: 50%;
+    font-size: 3.6rem;
+    color: var(--main-color);
+    margin-left: 6rem;
+    margin-top: 3rem;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-promo {
+    padding: 0rem 0rem 4rem;
+}
+
+.btn-promo h5 {
+    background: var(--main-color);
+    color: black;
+    width: 13rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: .7rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.btn-promo h5 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 1.3rem 1.5rem .2rem 2rem;
+}
+
+/* =========== Promo Section End ======== */
+
+/* Download Section Start */
+.download-padding {
+    padding: 0 13rem;
+}
+
+.download-title {
+    display: block;
+    text-align: center;
+}
+
+.download-title h3 {
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: var(--main-color);
+    margin-top: 5rem;
+}
+
+.download-title h2 {
+    font-size: 3.3rem;
+    font-weight: 900;
+    color: #000;
+}
+
+.download-link {
+    padding: 5rem 3.5rem;
+}
+
+.download-link h4 {
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: #000;
+}
+
+.download-link p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000;
+    padding: 2.6rem 0 7rem;
+}
+
+.download-img {
+    margin-left: 22rem;
+    margin-top: 4.7rem;
+}
+
+/* Download Section End */
+
+/* Teastimonials Section Start */
+.testimonials {
+    background: url(../img/testimonials.png) no-repeat;
+    background: cover;
+}
+
+.testimonials-padding {
+    padding: 3rem 3rem 7rem;
+}
+
+.testimonials-title h3 {
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: var(--main-color);
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.testimonials-title h2 {
+    font-size: 3.3rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+.feedback {
+    width: 40rem;
+    height: 17rem;
+    border-radius: 3rem;
+    background: #000;
+    margin-top: 9rem;
+    padding: 3rem;
+}
+
+.feedback h5 {
+    font-size: 2rem;
+    color: var(--main-color);
+    font-weight: 900;
+    display: inline;
+    padding: 0 0 0 1rem;
+}
+
+.feedback h6 {
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 700;
+    display: inline;
+}
+
+.feedback p {
+    font-size: 1rem;
+    color: rgb(228, 226, 226);
+    font-weight: 500;
+}
+
+.feedback-1 {
+    margin-left: 20rem;
+}
+
+.feedback-2 {
+    margin-left: 8rem;
+}
+
+/* Teastimonials Section End */
+
+.contact {
+    background: var(--main-color);
+    height: 23rem;
+    width: 100%;
+    padding: 7rem;
+}
+
+.contact h4 {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: #000;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #000;
+}
+
+
+
+/*========================== Footer Section Start ========================*/
+footer {
+    background: #070300;
+    width: 100%;
+    height: auto;
+    padding: 6rem 17rem 0;
+}
+
+footer h4 {
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-section-1 {
+    padding: 0 4rem;
+}
+
+.footer-section-2 {
+    padding: 0 0 0 6rem;
+}
+
+.footer-section-3 {
+    padding: 0 0 0 10rem;
+}
+
+.footer-yellow-line {
+    background: var(--main-color);
+    height: 1rem;
+    width: 33.2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.footer-section-1 .fab {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--main-color);
+    padding: 2rem 2rem 2rem 0;
+}
+
+.dl-play {
+    display: inline;
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 5rem;
+}
+
+.i-play {
+    color: #fff;
+    padding-left: 3rem;
+    font-size: 3rem;
+}
+
+.dl-ios {
+    display: inline;
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 5rem;
+}
+
+.i-ios {
+    color: #fff;
+    padding-left: 7rem;
+    font-size: 3.3rem;
+}
+
+.first {
+    margin-top: 3rem;
+}
+
+.footer-contact {
+    display: inline;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2rem 1rem 0rem;
+}
+
+.footer-contact span {
+    margin-left: 5rem;
+}
+
+.footer-contact li {
+    margin-top: 2rem;
+}
+
+.rights h6 {
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*======================= Footer Section End ===============================*/
+
+
+/* ====================================================
+               Destop And Laptops
+======================================================= */
+@media(min-width:1024px) {
+    .download-padding {
+        padding: 0rem;
+    }
+
+    .download-img {
+        width: 100%;
+    }
+
+    .about {
+        padding: 15rem 2rem 0;
+    }
+
+    .booking {
+        padding: 15rem 1rem 10rem;
+    }
+
+    .download-img {
+        margin-left: 1rem;
+    }
+
+    .tariffs-price {
+        width: 30rem;
+    }
+
+    .tariffs-img {
+        margin-left: auto;
+    }
+
+    .footer-yellow-line {
+        width: auto;
+    }
+
+    .promo-right p {
+        width: auto;
+    }
+
+    .promo-left p {
+        width: auto;
+    }
+
+    .promo-left .fas {
+        margin-left: auto;
+    }
+
+    .promo-right .fas {
+        margin-left: auto;
+    }
+    .feedback-1 {
+    margin-left: auto;
+    }
+    .feedback-2 {
+        margin-left: auto;
+    }
+    footer{
+        padding: 2rem;
+    }
+
+}
+
+/* ====================================================
+                   Tablet and Ipad
+===================================================== */
+@media(min-width:769px) and (max-width:1023px) {
+    .download-img {
+        width: 100%;
+    }
+
+    .mobile-img-real-taxi {
+        width: 100%;
+    }
+
+    .about {
+        padding: 10rem 2rem 0;
+    }
+
+    .booking {
+        padding: 15rem 1rem 10rem;
+    }
+
+    .download-img {
+        margin-left: 10rem;
+    }
+
+    .tariffs-price {
+        width: 30rem;
+        margin-left: 0rem;
+    }
+
+    .tariffs-img {
+        margin-left: -4rem;
+    }
+}
+
+/* =========================================================================
+                         Media Query For Mobile
+============================================================================ */
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .mobile-img-real-taxi {
+        width: 100%;
+        margin-top: -5rem;
+    }
+
+    .attraction {
+        height: 85rem;
+    }
+
+    .book-now h2 {
+        font-size: 4.7rem;
+    }
+
+    .book-now h4 {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        padding: 15rem 0rem 0;
+        text-align: center;
+    }
+
+    .about h3 {
+        font-size: 3rem;
+    }
+
+    .about h4 {
+        font-size: 2.3rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+    }
+
+    .features h2 {
+        font-size: 3rem;
+    }
+
+    .btn-readmore {
+        margin: 0 auto;
+    }
+
+    .booking {
+        padding: 10rem 1rem 1rem;
+        margin-top: -6rem;
+    }
+
+    .tariffs-price {
+        margin-left: 2rem;
+    }
+
+    .promo-left .fas {
+        margin-left: 2rem;
+        margin-top: -1rem;
+    }
+
+    .promo-left p {
+        width: auto;
+    }
+
+    .promo-left h3 {
+        margin-top: -1rem;
+    }
+
+    .promo-right .fas {
+        margin-left: -1rem;
+        margin-top: -1rem;
+    }
+
+    .promo-right p {
+        width: auto;
+        margin-left: 0rem;
+    }
+
+    .promo-right h3 {
+        margin-top: -1rem;
+        margin-left: 0rem;
+    }
+
+    .btn-promo h5 {
+        margin-top: -1rem;
+    }
+
+    .testimonials-padding {
+        padding: 3rem 3rem 0rem;
+    }
+
+    .download-padding {
+        padding: 0rem;
+    }
+
+    .download-padding img {
+
+        width: 100%;
+    }
+
+    .download-img {
+        margin-left: 7rem;
+    }
+
+    .feedback-1 {
+        margin: 3rem 0rem 2rem -1rem;
+    }
+
+    .feedback-2 {
+        margin: 0rem 0rem 2rem -1rem;
+    }
+
+    .contact {
+        height: auto;
+        padding: 3rem;
+    }
+
+    .contact h4 {
+        font-size: 2.3rem;
+    }
+
+    footer {
+        padding: 2rem 0;
+    }
+
+    .footer-section-2 {
+        padding: 0 0 0 4rem;
+    }
+
+    footer p {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    .footer-yellow-line {
+        height: 1rem;
+        margin-top: 1rem;
+    }
+
+    .dl-play {
+        font-size: 1.8rem;
+        padding-top: 0rem;
+    }
+
+    .dl-ios {
+        font-size: 1.8rem;
+        padding-top: 0rem;
+    }
+
+    .footer-section-3 {
+        padding: 0 0 0 4rem;
+    }
+
+
+
+
+
+
+}
