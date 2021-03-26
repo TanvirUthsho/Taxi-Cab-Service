@@ -815,11 +815,11 @@ footer p {
     }
 
     .about {
-        padding: 15rem 2rem 0;
+    padding: 15rem 15rem 0;
     }
 
     .booking {
-        padding: 15rem 1rem 10rem;
+        padding: 15rem 15rem 10rem;
     }
 
     .download-img {
@@ -831,7 +831,7 @@ footer p {
     }
 
     .tariffs-img {
-        margin-left: auto;
+        margin: 0 0 0 2rem;
     }
 
     .footer-yellow-line {
@@ -854,11 +854,12 @@ footer p {
         margin-left: auto;
     }
     .feedback-1 {
-    margin-left: auto;
+    margin-left: 20rem;
     }
-    .feedback-2 {
-        margin-left: auto;
-    }
+
+   .feedback-2 {
+    margin-left: 8rem;
+   }
     footer{
         padding: 2rem;
     }
