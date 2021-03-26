@@ -963,8 +963,12 @@ footer p {
         margin-top: -6rem;
     }
 
+    .tariffs-img {
+        margin-left: auto;
+    }
     .tariffs-price {
-        margin-left: 2rem;
+        margin: 0 auto;
+        margin-top: -8rem;
     }
 
     .promo-left .fas {
@@ -1044,11 +1048,13 @@ footer p {
     footer p {
         font-size: 1.1rem;
         margin-top: 1rem;
+        width: 30rem;
     }
 
     .footer-yellow-line {
         height: 1rem;
         margin-top: 1rem;
+        width: 30rem;
     }
 
     .dl-play {
