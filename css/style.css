@@ -805,7 +805,7 @@ footer p {
 /* ====================================================
                Destop And Laptops
 ======================================================= */
-@media(min-width:1024px) {
+@media(min-width:1024px) and (max-width:1439px) {
     .download-padding {
         padding: 0rem;
     }
