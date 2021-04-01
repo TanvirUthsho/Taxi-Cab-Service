@@ -803,7 +803,7 @@ footer p {
 
 
 /* ====================================================
-               Destop And Laptops
+               Medium Destop And Laptops
 ======================================================= */
 @media(min-width:1024px) and (max-width:1439px) {
     .download-padding {
@@ -832,11 +832,15 @@ footer p {
     }
 
     .tariffs-price {
-        width: 37rem;
+        width: 31rem;
+        margin-left: 0rem;
+    }
+    .tariffs-price h5 {
+        margin-top: 3.5rem;
     }
 
     .tariffs-img {
-        margin: 0 0 0 2rem;
+        margin: 0 0 0 -4rem;
     }
 
     .footer-yellow-line {
@@ -860,7 +864,7 @@ footer p {
     }
 
     .feedback-1 {
-       margin-left: 2rem;
+       margin-left: 3rem;
     }
 
     .feedback-2 {
