@@ -972,10 +972,15 @@ footer p {
 
     .tariffs-img {
         margin-left: auto;
+        width: 100%;
     }
     .tariffs-price {
         margin: 0 auto;
         margin-top: -8rem;
+        width: 33rem;
+    }
+    .tariffs-price h5 {
+        margin-top: 4rem;
     }
 
     .promo-left .fas {
@@ -1024,7 +1029,10 @@ footer p {
     }
 
     .download-img {
-        margin-left: 7rem;
+        margin-left: 5rem;
+    }
+    .download-link {
+    padding: 3rem 2.5rem;
     }
 
     .feedback-1 {
