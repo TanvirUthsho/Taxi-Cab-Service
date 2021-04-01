@@ -823,12 +823,12 @@ footer p {
     }
 
     .download-padding {
-        padding: 0 13rem;
+        padding: 0 5rem;
     }
 
     .download-img {
-        margin-left: 10rem;
-        width: 85%;
+        margin-left: 8rem;
+        width: 100%;
     }
 
     .tariffs-price {
@@ -868,7 +868,7 @@ footer p {
     }
 
     .feedback-2 {
-        margin-left: 8rem;
+        margin-left: 4rem;
     }
 
     footer {
